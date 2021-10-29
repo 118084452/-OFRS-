@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:/python-test/unitest_frome/test.py", line 54, in main
+    cW.SetAsForegroundWindow()
+  File "E:/python-test/unitest_frome/test.py", line 13, in SetAsForegroundWindow
+    win32gui.SetForegroundWindow(self._hwnd)
+pywintypes.error: (1400, 'SetForegroundWindow', '无效的窗口句柄。')
